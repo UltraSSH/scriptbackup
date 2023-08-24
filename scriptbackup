@@ -1,5 +1,5 @@
 #!/bin/bash
 
-tar cvf /etc/scripts/backup.vps /root/usuarios.db /etc/shadow /etc/passwd /etc/group /etc/gshadow /etc/bot /etc/SSHPlus/senha
 rm /var/www/html/backup.vps
+tar cvf /etc/scripts/backup.vps /root/usuarios.db /etc/shadow /etc/passwd /etc/group /etc/gshadow /etc/bot /etc/SSHPlus/senha
 mv /etc/scripts/backup.vps /var/www/html/backup.vps
